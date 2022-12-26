@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateFaculty">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/feb"
+            style="@style/Widget.Design.FloatingActionButton"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_baseline_add_24"
+            app:elevation="3dp"
+            app:fabSize="normal"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Science &amp; Humanity"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_marginTop="16dp">
+                        </TextView>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="8dp"/>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/MCADepartment"
+                            android:nestedScrollingEnabled="false"
+                                android:visibility="gone"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/MCANoData"
+                                android:orientation="vertical">
+                                <include layout="@layout/nodatafound"/>
+                        </LinearLayout>
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Pharmacy"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textSize="22sp"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_marginTop="16dp">-->
+<!--                        </TextView>-->
+<!--                        <View-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="1dp"-->
+<!--                            android:background="#c1c1c1"-->
+<!--                            android:layout_marginVertical="8dp"/>-->
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:id="@+id/MtechDepartment"-->
+<!--                            android:nestedScrollingEnabled="false"-->
+<!--                            android:visibility="gone"/>-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/MtechNoData"-->
+<!--                            android:orientation="vertical">-->
+<!--                                <include layout="@layout/nodatafound"/>-->
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="CSE"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textSize="22sp"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:layout_marginTop="16dp">-->
+<!--                        </TextView>-->
+<!--                        <View-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="1dp"-->
+<!--                            android:background="#c1c1c1"-->
+<!--                            android:layout_marginVertical="8dp"/>-->
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:id="@+id/CSEDepartment"-->
+<!--                            android:nestedScrollingEnabled="false"-->
+<!--                            android:visibility="gone"/>-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/CSENoData"-->
+<!--                            android:orientation="vertical">-->
+<!--                                <include layout="@layout/nodatafound"/>-->
+                        </LinearLayout>
+        </ScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MCACourse">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/logo"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                ></ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master of Computer Applications (MCA) CS"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:textColor="@color/black"
+            ></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/lightGray"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Intake:60"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="DURATION"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="105dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Master of Computer Applications - 2 Years"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="ELIGIBILITY"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="105dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Passed B.C.A/B.Sc. in Computer Science/B.Sc. in Information Technology/B.Sc in Computer Technology/Bachelor's Degree in Computer Science Engineering or equivalent or a degree from a University recognized or certified by UGC/SRMIST/AIU."
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="OR"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Passed B.Sc./B.Com./B.A. from a University recognized/certified by UGC/SRMIST/AIU with Mathematics at the 10+2 level or the graduation level.
+                \n\nA minimum percentage of marks/CGPA as prescribed by the SRMIST.
+                \n\nNotwithstanding the above, actual admissions will be based on the rules and regulations of the UGC/AICTE/any other competent authorities."
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="ADMISSION CRITERIA"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="213dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" /> <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_regular"
+            android:text="Fulfilling the eligibility criteria and Subject to the availability of seats at that point of time, Candidates will be called for counseling.
+            \n\nUpon selection of programme, tuition fees and other applicable fees have to be paid at the time of counselling
+             \n\nProvisional Allotment Letter (PAL) will be issued to confirm the candidate's admission"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="CAREER PATH"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="213dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_regular"
+            android:text="*    Entrepreneur
+            \n\n*   Research
+            \n\n*   Jobs in private/public sector organizations"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="SYLLABUS"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="213dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="FEE STRUCTURE"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+            <View
+                android:layout_width="213dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                >
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="Programmes">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/id_cad_details_dialog_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="MCA"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="Tuition Fee Per Year (Rs.)">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="75,000"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="One Time Registration Amount Rs.">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="5,000"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="Extra Curricular Activities">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="10,000"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="Security Deposit in Rs.">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="1,000"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textColor="@color/textColor"
+                        android:text="Total Amount in Rs.">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell"
+                        android:padding="5dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="91,000"
+                        android:textAppearance="?android:attr/textAppearanceSmall">
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

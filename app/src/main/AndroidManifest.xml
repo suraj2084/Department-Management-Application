@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.admincollegeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminCollegeApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddTeacher"
+            android:label="Add Teacher"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateFaculty"
+            android:exported="false"
+            android:label="@string/title_activity_faculty"
+            />
+        <activity
+            android:name=".MCACourse"
+            android:label=" MCA Course"
+            android:exported="false" />
+        <activity
+            android:name=".BSCCourse"
+            android:label="BSC Course"
+            android:exported="false" />
+        <activity
+            android:name=".BCACourse"
+            android:label="BCA Course"
+            android:exported="false" />
+        <activity
+            android:name=".DepartmentActivity"
+            android:label="Department"
+            android:exported="false" />
+        <activity
+            android:name=".StudentQueries"
+            android:exported="false"
+            android:label="Student Queries" />
+        <activity
+            android:name=".uploadToppers"
+            android:exported="false"
+            android:label="Toppers" />
+        <activity
+            android:name=".DeleteNotice"
+            android:exported="false"
+            android:label="Delete Notice" />
+        <activity
+            android:name=".UpdateEbooks"
+            android:exported="false"
+            android:label="Ebook" />
+        <activity
+            android:name=".UpdateImage"
+            android:exported="false"
+            android:label="image" />
+        <activity
+            android:name=".UpdateNotice"
+            android:exported="false"
+            android:label="Notice" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Admin App " />
+
+    </application>
+
+</manifest>
